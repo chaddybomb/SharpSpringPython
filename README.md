@@ -7,23 +7,19 @@ Future releases will provide for all SharpSpring API methods.
 
 ## Initial Release
 
-In its first release, SharpSpringPython takes a comma-separated list of email addresses, pulls all lead information from your SharpSpring instance on each email address, and provides a CSV file. Email addresses not found are skipped.  
+In its first release, SharpSpringPython takes a comma-separated list of email addresses, pulls all lead information from your SharpSpring instance on each email address, and provides a CSV file with all of the lead information. Email addresses not found are skipped.  
 
 ## Setup
 
-Python 3.x is required.
+Python 3.x is required. Include pip for required package installation.
 
-The following non-native packages are required: [requests](https://github.com/psf/requests) and [pandas](https://pandas.pydata.org/docs/getting_started/install.html).
-
-The installation may differ depending on your environment.
-
-**Requests**
 ```console
-$ python3 -m pip install requests
+$ sudo apt install python3-pip
 ```
-**Pandas**
+Required non-native package: [pandas](https://pandas.pydata.org/docs/getting_started/install.html).
+
 ```console
-$ pip install pandas
+$ python3 -m pip install pandas
 ```
 ## Configuration
 
@@ -40,14 +36,14 @@ email_addresses is a comma-separated list of email addresses.
 
 ## How to Run
 
-After you've configured the file, simply call the file with Python. After processed, you will find a data.csv file containing all leads.
+After you've configured the file, run it with Python. After processed, you will find a new data.csv file in the same directory containing all leads.
 
 ```console
 $ python3 ssp.py
 ```
 ```console
 $ ls
-data.csv    ssp.py
+data.csv  LICENSE  README.md  ssp.py
 ```
 ## TODOs
 
