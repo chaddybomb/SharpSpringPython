@@ -47,3 +47,8 @@ $ python ssp.py
 $ ls
 data.csv    ssp.py
 ```
+## TODOs
+
+* Error handling
+* Accept a csv file for data intake
+* Expand Methods
