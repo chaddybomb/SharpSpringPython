@@ -11,13 +11,15 @@ In its first release, SharpSpringPython takes a comma-separated list of email ad
 
 ## Setup
 
+Python 3.x is required.
+
 The following non-native packages are required: [requests](https://github.com/psf/requests) and [pandas](https://pandas.pydata.org/docs/getting_started/install.html).
 
 The installation may differ depending on your environment.
 
 **Requests**
 ```console
-$ python -m pip install requests
+$ python3 -m pip install requests
 ```
 **Pandas**
 ```console
@@ -41,7 +43,7 @@ email_addresses is a comma-separated list of email addresses.
 After you've configured the file, simply call the file with Python. After processed, you will find a data.csv file containing all leads.
 
 ```console
-$ python ssp.py
+$ python3 ssp.py
 ```
 ```console
 $ ls
