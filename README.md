@@ -11,15 +11,10 @@ In its first release, SharpSpringPython takes a comma-separated list of email ad
 
 ## Setup
 
-Python 3.x is required. Include pip for required package installation.
+Python 3.x and [pandas](https://pandas.pydata.org/docs/getting_started/install.html) are required.
 
 ```console
-$ sudo apt install python3-pip
-```
-Required non-native package: [pandas](https://pandas.pydata.org/docs/getting_started/install.html).
-
-```console
-$ python3 -m pip install pandas
+$ sudo apt install python3-pandas
 ```
 ## Configuration
 
@@ -40,8 +35,6 @@ After you've configured the file, run it with Python. After processed, you will 
 
 ```console
 $ python3 ssp.py
-```
-```console
 $ ls
 data.csv  LICENSE  README.md  ssp.py
 ```
